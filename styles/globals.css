@@ -69,4 +69,11 @@
   .tooltip:hover .content {
     @apply visible opacity-100 scale-100;
   }
+  
+  .bb-imprint-text {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+  }
 }
