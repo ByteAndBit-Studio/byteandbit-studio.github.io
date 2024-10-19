@@ -21,6 +21,10 @@
     @apply px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full;
   }
 
+  .header-background {
+	background: #0e1114;
+  }
+  
   .histogram {
     @apply h-6 w-full mx-auto;
   }
