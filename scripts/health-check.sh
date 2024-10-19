@@ -50,7 +50,7 @@ do
     fi
     sleep 5
   done
-  dateTime=$(date +'%Y-%m-%d %H:%M')
+  dateTime=$(TZ='Europe/Berlin' date +'%Y-%m-%d %H:%M')
   if [[ $commit == true ]]
   then
     mkdir -p public/status
