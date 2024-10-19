@@ -14,6 +14,10 @@ urlsConfig="public/urls.cfg"
 echo "Reading $urlsConfig"
 while IFS='=' read -r key url
 do
+  # Entferne führende und nachfolgende Leerzeichen
+  key=$(echo "$key" | xargs)
+  url=$(echo "$url" | xargs)
+  
   echo "  $key=$url"
   KEYSARRAY+=("$key")
   URLSARRAY+=("$url")
