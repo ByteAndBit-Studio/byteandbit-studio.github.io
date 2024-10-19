@@ -14,7 +14,7 @@ const Home: NextPage = () => {
           <Image src="/HQ4.png" width={421} height={100} className="w-40 h-16" alt="Tailwind Play" />
         </div>
       </div>
-      <div className='mt-20 w-full absolute '>
+      <div className='mt-20 w-full absolute service-container'>
         <ServicesSection />
       </div >
 	  <div className="bb-imprint-text">

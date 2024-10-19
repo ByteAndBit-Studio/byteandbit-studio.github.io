@@ -77,4 +77,8 @@
     text-align: center;
     width: 100%;
   }
+  
+  .service-container {
+	  padding-bottom: 3rem;
+  }
 }
