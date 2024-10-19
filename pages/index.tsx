@@ -15,10 +15,10 @@ const Home: NextPage = () => {
       <div className='mt-20 w-full absolute overflow-scroll	'>
         <ServicesSection />
       </div >
-	  <div className="bb-imprint-text" style="flex-direction: row; box-sizing: border-box; display: flex; place-content: center; align-items: center;">
-		<span style="margin-right: 12px;">© ByteAndBit Studio 2021-2024</span>
+	  <div className="bb-imprint-text">
+		<span>© ByteAndBit Studio 2021-2024</span>
 		<div>
-		  <a href="https://imprint.byteandbitstudio.de/imprint" style="margin-right: 3px;"> Impressum </a><a href="https://imprint.byteandbitstudio.de/privacy" style="margin-right: 3px;"> Datenschutzerklärung </a><a href="https://imprint.byteandbitstudio.de/agb"> AGB </a>
+		  <a href="https://imprint.byteandbitstudio.de/imprint"> Impressum </a><a href="https://imprint.byteandbitstudio.de/privacy"> Datenschutzerklärung </a><a href="https://imprint.byteandbitstudio.de/agb"> AGB </a>
 		</div>
 	  </div>
     </div>
