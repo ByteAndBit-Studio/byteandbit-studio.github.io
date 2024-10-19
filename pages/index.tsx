@@ -4,6 +4,8 @@ import IncidentsSection from "../src/incidents"
 import ServicesSection from "../src/services"
 
 const Home: NextPage = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className='h-full w-full '>
       <div className="mt-20 absolute inset-0 bg-[url(/grid.svg)] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
@@ -16,7 +18,7 @@ const Home: NextPage = () => {
         <ServicesSection />
       </div >
 	  <div className="bb-imprint-text">
-		<span>© ByteAndBit Studio 2021-2024</span>
+		<span>© ByteAndBit Studio 2021-{currentYear}</span>
 		<div>
 		  <a href="https://imprint.byteandbitstudio.de/imprint"> Impressum </a><a href="https://imprint.byteandbitstudio.de/privacy"> Datenschutzerklärung </a><a href="https://imprint.byteandbitstudio.de/agb"> AGB </a>
 		</div>
